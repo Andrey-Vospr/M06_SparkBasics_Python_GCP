@@ -18,7 +18,7 @@ hotels = hotels.withColumn("Longitude", hotels["Longitude"].cast("double"))
 # TODO: Add OpenCage REST API logic here for missing lat/lon
 # TODO: Generate geohash using pgh.encode(lat, lon, precision=4)
 
-# Save result (dummy step)
+# Save result 
 hotels.write.mode("overwrite").parquet("gs://storage-bucket-polished-owl/data/output/hotels_cleaned")
 
 spark.stop()

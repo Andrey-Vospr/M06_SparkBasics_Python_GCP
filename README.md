@@ -1,6 +1,7 @@
 # M06 Spark Basics – Python (GCP)
 
-This project demonstrates an end-to-end Spark ETL pipeline deployed on Kubernetes, using GCP and Terraform infrastructure. It fulfills the requirements of the M06 Spark Basics Homework.
+This project demonstrates building a Spark ETL pipeline using Python, Docker, Kubernetes, and GCP. The pipeline processes hotel and weather data, enriches the dataset using OpenCage Geolocation API and Geohash, and stores the results in a GCP bucket in Parquet format.
+
 ## 📌 Project structure
 
 M06_SparkBasics_Python_GCP/
@@ -21,6 +22,22 @@ M06_SparkBasics_Python_GCP/
 ├── screenshots/
 │   └── *.png
 └── .gitignore
+
+
+## 📌 Tools & Services Used
+## ✅ 1. Apache Spark (via PySpark)
+
+## ✅ 2. Google Cloud Platform (GCP)
+
+## ✅ 3. Google Kubernetes Engine (GKE)
+
+## ✅ 4. Terraform
+
+## ✅ 5. Docker
+
+## ✅ 6. OpenCage Geocoding API
+
+## ✅ 7. Helm + Spark Operator
 
 
 ## 📌 Steps Completed
@@ -53,7 +70,9 @@ M06_SparkBasics_Python_GCP/
 - ✅ Working Docker image
 - ✅ Clean GitHub repo
 
----
+### ✅ Final Enriched Output:
+gs://storage-bucket-polished-owl/hotels_enriched.parquet/
+
 
 ## 📸 Screenshots to Upload
 > Save these from PowerShell or browser, and add them to your repo `screenshots/` folder
